@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <style>
+        #container
+        {
+            display: grid;
+            background-color: beige;
+            height: 30cm;
+            border: 2px black solid;
+            row-gap: 5px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+        }
+        #boxi
+       {
+         background-color: green;
+       }
+        #box1
+        {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 10px;
+        }
+        .box1
+        {
+            background-color: blue;
+            border: 2px black solid;
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+        #box2
+        {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 10px;
+        }
+        .box2
+        {
+            background-color: gray;
+            border: 2px black solid;
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+        @media screen and (max-width:1200px)
+        {
+            #boxi
+       {
+         background-color: green;
+       }
+        #box1
+        {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 10px;
+        }
+        .box1
+        {
+            background-color: blue;
+            border: 2px black solid;
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+        #box2
+        {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 10px;
+        }
+        .box2
+        {
+            background-color: gray;
+            border: 2px black solid;
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+        }
+        @media screen and (max-width:900px)
+        {
+            #boxi
+       {
+         background-color: green;
+       }
+        #box1
+        {
+            display: grid;
+            grid-template-columns: auto;
+            row-gap: 10px;
+        }
+        .box1
+        {
+            background-color: blue;
+            border: 2px black solid;
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+        #box2
+        {
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+        .box2
+        {
+            background-color: gray;
+            border: 2px black solid;
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+        }
+        @media screen and (max-width:600px)
+        {
+            #boxi
+       {
+         background-color: green;
+       }
+        #box1
+        {
+            display: grid;
+            grid-template-columns: auto;
+            row-gap: 10px;
+        }
+        .box1
+        {
+            background-color: blue;
+            border: 2px black solid;
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+        #box2
+        {
+            display: grid;
+            grid-template-columns: auto;
+            row-gap: 10px;
+        }
+        .box2
+        {
+            background-color: gray;
+            border: 2px black solid;
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+        }
+     </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="boxi"></div>
+        <div id="box1">
+            <div class="box1"></div>
+            <div class="box1"></div>
+            <div class="box1"></div>
+        </div>
+        <div id="box2">
+            <div class="box2"></div>
+            <div class="box2"></div>
+            <div class="box2"></div>
+            <div class="box2"></div>
+        </div>
+    </div>
+</body>
+</html>

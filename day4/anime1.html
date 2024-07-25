@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    #int
+    {
+        height: 25px;
+        width: 25px;
+        border: 2px black solid;
+        animation-name: anime;
+        position: relative;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-direction:reverse;
+        animation-delay: 2s;
+        animation-timing-function: ease;
+        animation-fill-mode: both;
+    }
+    @keyframes anime
+    {
+        0%{background-color: blue;top: 0px;left: 0px;}
+        25%{background-color: red;top: 0px;left: 100px;}
+        50%{background-color: pink; top: 100px;left: 100px;}
+        75%{background-color: aqua; top: 100px;left: 0px;}
+        100%{background-color: rgb(30, 236, 78);top: 0px;left: 0px;}
+    }
+     </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="int">
+
+    </div>
+</body>
+</html>
